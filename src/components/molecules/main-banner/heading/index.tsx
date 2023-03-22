@@ -1,4 +1,4 @@
-export const MainHeading = () => {
+export const MainBannerHeading = () => {
     return (
         <div className="w-full">
             <h1 className="text-center md:text-left text-primary text-3xl md:text-4xl font-bold mb-1">

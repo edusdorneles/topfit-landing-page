@@ -1,2 +1,1 @@
-export * from "./main-heading";
-export * from "./main-form";
+export * from "./main-banner";

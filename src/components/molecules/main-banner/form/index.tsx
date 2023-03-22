@@ -1,6 +1,6 @@
 import { Input, Button } from "@/components";
 
-export const MainForm = () => {
+export const MainBannerForm = () => {
     return (
         <div className="w-full">
             <div className="p-5 rounded-md bg-primary h-full shadow-md">
