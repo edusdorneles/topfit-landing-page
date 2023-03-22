@@ -10,7 +10,10 @@ export const MainBannerForm = () => {
                     <Input type="text" placeholder="Nome:" />
                     <Input type="text" placeholder="E-mail:" />
                     <Input type="text" placeholder="Telefone:" />
-                    <Button type="submit">AGENDAR</Button>
+
+                    <Button type="submit" secondary>
+                        AGENDAR
+                    </Button>
                 </form>
             </div>
         </div>
