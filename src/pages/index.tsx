@@ -1,5 +1,5 @@
 import { Inter } from "next/font/google";
-import { MainBanner, HealthWellness, Services, Qualities } from "@/components";
+import { MainBanner, HealthWellness, Services, Qualities, Plans } from "@/components";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -10,6 +10,7 @@ export default function Home() {
             <HealthWellness />
             <Services />
             <Qualities />
+            <Plans />
         </main>
     );
 }
