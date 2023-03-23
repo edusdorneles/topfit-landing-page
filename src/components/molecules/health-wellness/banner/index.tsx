@@ -3,9 +3,9 @@ import { Button } from "@/components";
 export const HealthWellnessBanner = () => {
     return (
         <div className="min-h-[40vh] h-full bg-[url('/images/banner/saude-bem-estar.jpg')] bg-center bg-cover w-full flex justify-center items-center flex-col p-6 lg:px-0">
-            <h3 className="text-center text-white text-3xl md:text-4xl font-bold mb-1">COMECE HOJE</h3>
+            <h3 className="text-center text-white text-3xl md:text-4xl font-bold">COMECE HOJE</h3>
 
-            <p className="text-center text-white mt-2">
+            <p className="text-center text-white mt-3">
                 Não há melhor momento do que o presente para começar a cuidar da sua saúde e bem-estar na academia.
             </p>
 
