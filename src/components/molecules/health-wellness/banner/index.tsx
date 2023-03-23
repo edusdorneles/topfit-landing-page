@@ -14,7 +14,7 @@ export const HealthWellnessBanner = () => {
                 qualidade de vida.
             </p>
 
-            <Button className="flex gap-2 items-center px-16 py-2">ENTRAR EM CONTATO</Button>
+            <Button className="px-16 py-2">ENTRAR EM CONTATO</Button>
         </div>
     );
 };
