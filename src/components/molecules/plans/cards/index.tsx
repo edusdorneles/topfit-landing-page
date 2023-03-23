@@ -1,5 +1,6 @@
 import { PlanCard } from "@/components";
 import { MdOutlineEmojiPeople } from "react-icons/md";
+import { FaTimes, FaCheck } from "react-icons/fa";
 
 export const PlansCards = () => {
     return (
@@ -10,15 +11,44 @@ export const PlansCards = () => {
                 title="FITNESS"
                 qualities={
                     <ul className="text-white list-inside list-disc">
-                        <li className="text-sm">Acesso ilimitado à academia</li>
-                        <li className="text-sm">Acompanhamento nutricional</li>
-                        <li className="text-sm">Acesso às aulas coletivas</li>
-                        <li className="text-sm line-through">Estacionamento privativo</li>
-                        <li className="text-sm line-through">Aulas exclusivas</li>
-                        <li className="text-sm line-through">Lounge para descanso</li>
-                        <li className="text-sm line-through">Personal trainer exclusivo</li>
-                        <li className="text-sm line-through">Piscina climatizada</li>
-                        <li className="text-sm line-through">Área de Spa e bem-estar</li>
+                        <li className="text-sm flex items-center gap-2">
+                            <FaCheck size={10} /> Acesso ilimitado à academia
+                        </li>
+
+                        <li className="text-sm flex items-center gap-2">
+                            <FaCheck size={10} />
+                            Acompanhamento nutricional
+                        </li>
+
+                        <li className="text-sm flex items-center gap-2">
+                            <FaCheck size={10} />
+                            Acesso às aulas coletivas
+                        </li>
+
+                        <li className="text-sm flex items-center gap-2 line-through">
+                            <FaTimes size={10} />
+                            Estacionamento privativo
+                        </li>
+
+                        <li className="text-sm flex items-center gap-2 line-through">
+                            <FaTimes size={10} /> Aulas exclusivas
+                        </li>
+
+                        <li className="text-sm flex items-center gap-2 line-through">
+                            <FaTimes size={10} /> Lounge para descanso
+                        </li>
+
+                        <li className="text-sm flex items-center gap-2 line-through">
+                            <FaTimes size={10} /> Personal trainer exclusivo
+                        </li>
+
+                        <li className="text-sm flex items-center gap-2 line-through">
+                            <FaTimes size={10} /> Piscina climatizada
+                        </li>
+
+                        <li className="text-sm flex items-center gap-2 line-through">
+                            <FaTimes size={10} /> Área de Spa e bem-estar
+                        </li>
                     </ul>
                 }
             />
@@ -28,15 +58,50 @@ export const PlansCards = () => {
                 title="MASTER"
                 qualities={
                     <ul className="text-white list-inside list-disc">
-                        <li className="text-sm">Acesso ilimitado à academia</li>
-                        <li className="text-sm">Acompanhamento nutricional</li>
-                        <li className="text-sm">Acesso às aulas coletivas</li>
-                        <li className="text-sm">Estacionamento privativo</li>
-                        <li className="text-sm">Aulas exclusivas</li>
-                        <li className="text-sm">Lounge para descanso</li>
-                        <li className="text-sm">Personal trainer exclusivo</li>
-                        <li className="text-sm">Piscina climatizada</li>
-                        <li className="text-sm">Área de Spa e bem-estar</li>
+                        <li className="text-sm flex items-center gap-2">
+                            <FaCheck size={10} />
+                            Acesso ilimitado à academia
+                        </li>
+
+                        <li className="text-sm flex items-center gap-2">
+                            <FaCheck size={10} />
+                            Acompanhamento nutricional
+                        </li>
+
+                        <li className="text-sm flex items-center gap-2">
+                            <FaCheck size={10} />
+                            Acesso às aulas coletivas
+                        </li>
+
+                        <li className="text-sm flex items-center gap-2">
+                            <FaCheck size={10} />
+                            Estacionamento privativo
+                        </li>
+
+                        <li className="text-sm flex items-center gap-2">
+                            <FaCheck size={10} />
+                            Aulas exclusivas
+                        </li>
+
+                        <li className="text-sm flex items-center gap-2">
+                            <FaCheck size={10} />
+                            Lounge para descanso
+                        </li>
+
+                        <li className="text-sm flex items-center gap-2">
+                            <FaCheck size={10} />
+                            Personal trainer exclusivo
+                        </li>
+
+                        <li className="text-sm flex items-center gap-2">
+                            <FaCheck size={10} />
+                            Piscina climatizada
+                        </li>
+
+                        <li className="text-sm flex items-center gap-2">
+                            <FaCheck size={10} />
+                            Área de Spa e bem-estar
+                        </li>
                     </ul>
                 }
             />
@@ -46,16 +111,54 @@ export const PlansCards = () => {
                 icon={<MdOutlineEmojiPeople size={36} color="#FFF" />}
                 title="PREMIUM"
                 qualities={
-                    <ul className="text-white list-inside list-disc">
-                        <li className="text-sm">Acesso ilimitado à academia</li>
-                        <li className="text-sm">Acompanhamento nutricional</li>
-                        <li className="text-sm">Acesso às aulas coletivas</li>
-                        <li className="text-sm">Estacionamento privativo</li>
-                        <li className="text-sm">Aulas exclusivas</li>
-                        <li className="text-sm">Lounge para descanso</li>
-                        <li className="text-sm line-through">Personal trainer exclusivo</li>
-                        <li className="text-sm line-through">Piscina climatizada</li>
-                        <li className="text-sm line-through">Área de Spa e bem-estar</li>
+                    <ul
+                        className="text-white
+                     list-inside list-disc"
+                    >
+                        <li className="text-sm flex items-center gap-2">
+                            <FaCheck size={10} />
+                            Acesso ilimitado à academia
+                        </li>
+
+                        <li className="text-sm flex items-center gap-2">
+                            <FaCheck size={10} />
+                            Acompanhamento nutricional
+                        </li>
+
+                        <li className="text-sm flex items-center gap-2">
+                            <FaCheck size={10} />
+                            Acesso às aulas coletivas
+                        </li>
+
+                        <li className="text-sm flex items-center gap-2">
+                            <FaCheck size={10} />
+                            Estacionamento privativo
+                        </li>
+
+                        <li className="text-sm flex items-center gap-2">
+                            <FaCheck size={10} />
+                            Aulas exclusivas
+                        </li>
+
+                        <li className="text-sm flex items-center gap-2">
+                            <FaCheck size={10} />
+                            Lounge para descanso
+                        </li>
+
+                        <li className="text-sm flex items-center gap-2 line-through">
+                            <FaTimes size={10} />
+                            Personal trainer exclusivo
+                        </li>
+
+                        <li className="text-sm flex items-center gap-2 line-through">
+                            <FaTimes size={10} />
+                            Piscina climatizada
+                        </li>
+
+                        <li className="text-sm flex items-center gap-2 line-through">
+                            <FaTimes size={10} />
+                            Área de Spa e bem-estar
+                        </li>
                     </ul>
                 }
             />
