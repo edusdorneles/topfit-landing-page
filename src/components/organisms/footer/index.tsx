@@ -2,9 +2,9 @@ export const Footer = () => {
     return (
         <footer className="flex items-center justify-between bg-primary px-6 py-4 lg:px-0">
             <div className="max-w-4xl mx-auto w-full flex items-center justify-between flex-col-reverse md:flex-row gap-2 md:gap-0">
-                <p className="text-white">© 2023 TopFit. Todos os direitos reservados.</p>
+                <p className="text-white text-sm md:text-base">© 2023 TopFit. Todos os direitos reservados.</p>
 
-                <p className="text-white">
+                <p className="text-white text-sm md:text-base">
                     Feito por:{" "}
                     <a
                         target="_blank"
