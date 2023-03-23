@@ -2,7 +2,7 @@ import { ServiceCard } from "@/components";
 
 export const ServicesCards = () => {
     return (
-        <div className="flex flex-col lg:flex-row justify-between max-w-4xl w-full px-6 lg:px-0">
+        <div className="flex lg:gap-6 flex-col lg:flex-row justify-between max-w-4xl w-full px-6 lg:px-0">
             <ServiceCard
                 image="/images/services/service-1.jpg"
                 title="TERINAMENTO"
